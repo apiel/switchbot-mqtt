@@ -10,7 +10,7 @@ WorkingDirectory=/home/pi/switchbot-mqtt
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
-User=root
+User=pi
 
 [Install]
 WantedBy=multi-user.target
